@@ -1,1 +1,48 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="C:\Users\Dell\Desktop\vigya\calculator project\project try 3\style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Lobster&family=Pacifico&display=swap"
+		rel="stylesheet">
+</head>
+<body>
+<h1 class="heading">Vigya's Calculator</h1>
+    <div class="background">
+        
+    </div>
+    <br>
+    <br>
+    <br>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+
+    <button class="btn" onclick="appendNumber(7)">7</button>
+    <button class="btn" onclick="appendNumber(8)">8</button>
+    <button class="btn" onclick="appendNumber(9)">9</button>
+    <button class="btn" onclick="clearDisplay()">Clr</button>
+
+    <button class="btn" onclick="appendNumber(4)">4</button>
+    <button class="btn" onclick="appendNumber(5)">5</button>
+    <button class="btn" onclick="appendNumber(6)">6</button>
+    <button class="btn" onclick="deleteLast()">Del</button>
+
+    <button class="btn" onclick="appendNumber(1)">1</button>
+    <button class="btn" onclick="appendNumber(2)">2</button>
+    <button class="btn" onclick="appendNumber(3)">3</button>
+    <button class="btn" onclick="appendSymbol('/')">/</button>
+   
+    <button class="btn" onclick="appendSymbol('*')">*</button>
+    <button class="btn" onclick="appendNumber(0)">0</button>
+    <button class="btn" onclick="appendSymbol('-')">-</button>
+   
+    <button class="btn" onclick="appendSymbol('+')">+</button>
+   
+    <button class="btn" onclick="appendSymbol('.')">.</button>
+    <button class="btn" onclick="calculateResult()">=</button>
+  </div>
+  <script src="C:\Users\Dell\Desktop\vigya\calculator project\project try 3\index.js"></script>
+</body>
+</html>
